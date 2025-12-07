@@ -1,41 +1,6 @@
-# Spring Boot with Observability
+# API Monitoring Observability Platform
 
-Observe the Spring Boot application with three pillars of observability on [Grafana](https://github.com/grafana/grafana):
-
-1. Traces with [Tempo](https://github.com/grafana/tempo) and [OpenTelemetry Instrumentation for Java](https://github.com/open-telemetry/opentelemetry-java-instrumentation)
-2. Metrics with [Prometheus](https://prometheus.io/), [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/), and [Micrometer](https://micrometer.io/)
-3. Logs with [Loki](https://github.com/grafana/loki) and [Logback](https://logback.qos.ch/)
-
-![Observability Architecture](./images/observability-arch.jpg)
-
-This demo project is a Spring Boot version of [FastAPI with Observability](https://github.com/blueswen/fastapi-observability) and is also inspired by [Cloud Observability with Grafana and Spring Boot](https://github.com/qaware/cloud-observability-grafana-spring-boot).
-
-## Table of contents
-
-- [Spring Boot with Observability](#spring-boot-with-observability)
-  - [Table of contents](#table-of-contents)
-  - [Quick Start](#quick-start)
-  - [Explore with Grafana](#explore-with-grafana)
-    - [Metrics to Traces](#metrics-to-traces)
-    - [Traces to Logs](#traces-to-logs)
-    - [Logs to Traces](#logs-to-traces)
-  - [Detail](#detail)
-    - [Spring Boot Application](#spring-boot-application)
-      - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
-      - [Logs](#logs)
-      - [Traces](#traces)
-      - [Metrics](#metrics)
-        - [Metrics with Exemplar](#metrics-with-exemplar)
-    - [Prometheus - Metrics](#prometheus---metrics)
-      - [Prometheus Config](#prometheus-config)
-      - [Grafana Data Source](#grafana-data-source)
-    - [Tempo - Traces](#tempo---traces)
-      - [Grafana Data Source](#grafana-data-source-1)
-    - [Loki - Logs](#loki---logs)
-      - [Loki Docker Driver](#loki-docker-driver)
-      - [Grafana Data Source](#grafana-data-source-2)
-    - [Grafana](#grafana)
-  - [Reference](#reference)
+(https://github.com/grafana/loki) (https://logback.qos.ch/)
 
 ## Quick Start
 
