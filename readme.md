@@ -1,6 +1,5 @@
 # API Monitoring Observability Platform
 
-(https://github.com/grafana/loki) (https://logback.qos.ch/)
 
 ## Quick Start
 
